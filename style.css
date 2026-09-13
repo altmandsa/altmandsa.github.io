@@ -276,7 +276,10 @@ h1 {
 
 }
 
-@media (max-width: 600px) {
+/* for mobile phone version */
+/* in future if wanted can add orientation: portrait and landscape mode */
+/* portrait and landscape mode are already built-in media features */ 
+@media (max-width: 900px) {
    .container {
     margin-top: 20px;
     margin-left: 10px;
